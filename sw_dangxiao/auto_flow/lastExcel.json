@@ -1,0 +1,10 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {
+        "$view": "lastExcel"
+      }
+    ]
+  }
+]

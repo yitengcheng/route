@@ -1,0 +1,7 @@
+{
+  "path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "title": "谷歌浏览器",
+  "class": "Chrome",
+  "default": "about:blank",
+  "driver": "111.0.5563.146"
+}

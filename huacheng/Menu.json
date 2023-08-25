@@ -1,0 +1,14 @@
+[
+  {
+    "name": "启动引擎",
+    "action": {
+      "containers.Firefox.open_browser": {}
+    },
+    "icons": "`working.png`"
+  },
+  {
+    "name": "启动自动化数据建模",
+    "action": "modeling",
+    "icons": "working.png"
+  }
+]

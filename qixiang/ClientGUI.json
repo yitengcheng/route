@@ -1,0 +1,21 @@
+/**
+如果参数"path"存在，以"path"指定的地址去寻找程序对象
+如果参数"path"缺省，以"title"在内存列表里去匹配程序对象
+*/
+{"wechat":{
+  "path": "C:/Program Files (x86)/Tencent/WeChat/WeChat.exe",
+  "title": "微信",
+  "backend": "uia",
+  "node": {
+    "controls":{
+      "shouchang": {"control_type": "Button", "title":"收藏"},
+      "music": {"control_type": "Button", "title":"音乐"}
+    },
+    "groups":{
+      "test": {
+        "1": {"action":"click"},
+        "2": {"action":"click"}
+      }
+    }
+  }
+}}

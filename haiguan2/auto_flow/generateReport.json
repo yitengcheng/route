@@ -1,0 +1,20 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {
+        "$view": "generateReport"
+      },
+      {
+        "java_script": {
+          "js": "generateReport1"
+        }
+      },
+      {
+        "java_script": {
+          "js": "generateReport2"
+        }
+      }
+    ]
+  }
+]

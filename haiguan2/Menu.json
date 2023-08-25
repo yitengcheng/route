@@ -1,0 +1,16 @@
+[
+  {
+    "name": "启动引擎",
+    "action": {
+      "containers.ClientGUI.start": {
+        "headless": false
+      }
+    },
+    "icons": "`working.png`"
+  },
+  {
+    "name": "汇总数据",
+    "action": "generateReport",
+    "icons": "working.png"
+  }
+]

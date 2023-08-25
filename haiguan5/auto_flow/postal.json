@@ -1,0 +1,25 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {
+        "$view": "postal"
+      },
+      {
+        "$timeout": 5
+      },
+      {
+        "$while": [
+          {
+            "java_script": {
+              "js": "generateReport"
+            }
+          },
+          {
+            "$timeout": 1
+          }
+        ]
+      }
+    ]
+  }
+]

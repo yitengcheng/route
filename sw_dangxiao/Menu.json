@@ -1,0 +1,29 @@
+[
+  {
+    "name": "启动引擎",
+    "action": {
+      "containers.Firefox.open_browser": {}
+    },
+    "icons": "`working.png`"
+  },
+  {
+    "name": "生成班级excel",
+    "action": "classExcel",
+    "icons": "working.png"
+  },
+  {
+    "name": "生成最终excel",
+    "action": "lastExcel",
+    "icons": "working.png"
+  },
+  {
+    "name": "修正学员信息",
+    "action": "updateStudents",
+    "icons": "working.png"
+  },
+  {
+    "name": "区位图排座",
+    "action": "rowSeat",
+    "icons": "working.png"
+  }
+]

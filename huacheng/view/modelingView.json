@@ -1,0 +1,20 @@
+{
+  "title": "提示框",
+  "widget": [
+    {
+      "file": {
+        "id": "excelPath",
+        "name": "excel文件路径",
+        "event": {
+          "type": "fileSelected",
+          "java_script": {
+            "js": "initExcel"
+          }
+        }
+      }
+    }
+  ],
+  "submit": {
+    "js": "login"
+  }
+}

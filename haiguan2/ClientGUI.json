@@ -1,0 +1,89 @@
+/**
+如果参数"path"存在，以"path"指定的地址去寻找程序对象
+如果参数"path"缺省，以"title"在内存列表里去匹配程序对象
+*/
+{
+  "shuikong": {
+    "title": "运输工具水空子系统",
+    "backend": "uia",
+    "node": {
+      "controls": {
+        "beian": {
+          "control_type": "TreeItem",
+          "title": "备案管理"
+        },
+        "jinjing": {
+          "control_type": "TreeItem",
+          "title": "进境（港）申报单"
+        },
+        "chujing": {
+          "control_type": "TreeItem",
+          "title": "出境（港）申报单"
+        },
+        "chaxun": {
+          "auto_id": "btnSearch"
+        },
+        "totalPageNumber": {
+          "auto_id": "lblCurrentIndex"
+        },
+        "daishenghe": {
+          "auto_id": "cbAuditFlag"
+        },
+        "daishenghe_list": {
+          "control_type": "List",
+          "title": "待审核"
+        },
+        "dateStart": {
+          "auto_id": "dateStart"
+        },
+        "dateEnd": {
+          "auto_id": "dateEnd"
+        },
+        "table": {
+          "auto_id": "gcAirBill"
+        },
+        "nextPage": {
+          "auto_id": "btnNext"
+        }
+      },
+      "groups": {
+        "jcheckbox_select": [
+          {
+            "daishenghe": {
+              "event": "click_input"
+            }
+          },
+          {
+            "$timeout": 0.5
+          },
+          {
+            "daishenghe_list": {
+              "event": {
+                "action": "select",
+                "param": "已通过"
+              }
+            }
+          }
+        ],
+        "ccheckbox_select": [
+          {
+            "daishenghe": {
+              "event": "click_input"
+            }
+          },
+          {
+            "$timeout": 0.5
+          },
+          {
+            "daishenghe_list": {
+              "event": {
+                "action": "select",
+                "param": "已通过"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

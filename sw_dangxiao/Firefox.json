@@ -1,0 +1,7 @@
+{
+  "path": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "title": "火狐浏览器",
+  "class": "Firefox",
+  "default": "about:blank",
+  "driver": "12.1"
+}

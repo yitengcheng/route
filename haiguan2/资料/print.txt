@@ -1,0 +1,33 @@
+状态栏	        StatusBar
+            按钮	        Button
+            单选框	        RadioButton
+            组合框	        ComboBox
+            复选框	        CheckBox
+            组框	        GroupBox
+            编辑栏	        Edit
+            列表框	        ListBox
+            弹出菜单	    PopupMenu
+            工具栏	        Toolbar
+            树状视图	    Tree View
+            菜单栏	        MenuItem
+            菜单	        Menu
+            窗格	        Pane
+            静态内容	    Static
+            对话框（窗口）	Dialog
+            头部内容	    Header
+            列表显示控件	ListView
+            选项卡控件	    TabControl
+            工具提示	    ToolTips
+            数据表          Table
+
+
+   操作	方法
+            ————————————————
+            单击	        click_input
+            双击	        double_click
+            右击	        right_click
+            中间点击	    wheel_click
+            按下鼠标	    press
+            释放鼠标	    replace
+            鼠标移动	    move
+            滚动鼠标	    scroll

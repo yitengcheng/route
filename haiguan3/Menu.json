@@ -1,0 +1,14 @@
+[
+  {
+    "name": "启动引擎",
+    "action": {
+      "containers.Firefox.open_browser": {}
+    },
+    "icons": "`working.png`"
+  },
+  {
+    "name": "重复旅客",
+    "action": "generateReport",
+    "icons": "working.png"
+  }
+]

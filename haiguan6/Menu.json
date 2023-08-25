@@ -1,0 +1,14 @@
+[
+  {
+    "name": "启动引擎",
+    "action": {
+      "containers.Firefox.open_browser": {}
+    },
+    "icons": "`working.png`"
+  },
+  {
+    "name": "一局四中心邮递物品",
+    "action": "postal",
+    "icons": "working.png"
+  }
+]

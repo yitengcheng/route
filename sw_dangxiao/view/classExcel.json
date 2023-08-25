@@ -1,0 +1,54 @@
+{
+  "title": "提示框",
+  "widget": [
+    {
+      "file": {
+        "id": "primaryFile",
+        "name": "原始excel路径"
+      }
+    },
+    {
+      "input": {
+        "id": "primaryFileNumber",
+        "name": "原始excel起始行"
+      }
+    },
+    {
+      "input": {
+        "id": "className",
+        "name": "班级名"
+      }
+    },
+    {
+      "input": {
+        "id": "groupNumber",
+        "name": "编组人数"
+      }
+    },
+    {
+      "file": {
+        "id": "templateFile",
+        "name": "模板excel路径"
+      }
+    },
+    {
+      "input": {
+        "id": "templateFileNumber",
+        "name": "模板excel起始行"
+      }
+    },
+    {
+      "combox": {
+        "id": "sortord",
+        "name": "排序方式",
+        "value": [
+          "随机排序",
+          "单位排序"
+        ]
+      }
+    }
+  ],
+  "submit": {
+    "js": "generatedClass"
+  }
+}

@@ -1,0 +1,905 @@
+Control Identifiers:
+
+Dialog - '运输工具水空子系统'    (L-8, T-8, R1374, B736)
+['Dialog', '运输工具水空子系统Dialog', '运输工具水空子系统']
+child_window(title="运输工具水空子系统", auto_id="frmMainForm", control_type="Window")
+   | 
+   | Pane - 'splitContainerControl1'    (L0, T153, R1366, B701)
+   | ['splitContainerControl1Pane', 'splitContainerControl1', 'Pane', 'Pane0', 'Pane1']
+   | child_window(title="splitContainerControl1", auto_id="splitContainerControl1", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L4, T157, R276, B697)
+   |    | ['Pane2']
+   |    | child_window(auto_id="525618", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'navBarControl1'    (L4, T157, R276, B697)
+   |    |    | ['Pane3', 'navBarControl1', 'navBarControl1Pane']
+   |    |    | child_window(title="navBarControl1", auto_id="navBar", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L4, T190, R276, B595)
+   |    |    |    | ['Pane4']
+   |    |    |    | child_window(auto_id="1310768", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L4, T190, R276, B595)
+   |    |    |    |    | ['Pane5']
+   |    |    |    |    | child_window(auto_id="1770446", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeView - ''    (L4, T190, R276, B595)
+   |    |    |    |    |    | ['TreeView']
+   |    |    |    |    |    | child_window(auto_id="460000", control_type="Tree")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ScrollBar - '垂直滚动条'    (L257, T192, R274, B593)
+   |    |    |    |    |    |    | ['ScrollBar', '垂直滚动条', '垂直滚动条ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    |    |    |    | child_window(title="垂直滚动条", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '上一行'    (L257, T192, R274, B209)
+   |    |    |    |    |    |    |    | ['上一行', 'Button', '上一行Button', 'Button0', 'Button1']
+   |    |    |    |    |    |    |    | child_window(title="上一行", auto_id="UpButton", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '向上翻页'    (L257, T209, R274, B250)
+   |    |    |    |    |    |    |    | ['向上翻页', 'Button2', '向上翻页Button']
+   |    |    |    |    |    |    |    | child_window(title="向上翻页", auto_id="UpPageButton", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Thumb - '位置'    (L257, T250, R274, B396)
+   |    |    |    |    |    |    |    | ['位置', 'Thumb', '位置Thumb', '位置0', '位置1', 'Thumb0', 'Thumb1', '位置Thumb0', '位置Thumb1']
+   |    |    |    |    |    |    |    | child_window(title="位置", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '向下翻页'    (L257, T396, R274, B576)
+   |    |    |    |    |    |    |    | ['向下翻页Button', 'Button3', '向下翻页']
+   |    |    |    |    |    |    |    | child_window(title="向下翻页", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '下一行'    (L257, T576, R274, B593)
+   |    |    |    |    |    |    |    | ['下一行Button', 'Button4', '下一行']
+   |    |    |    |    |    |    |    | child_window(title="下一行", auto_id="DownButton", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '备案管理'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['TreeItem', '备案管理', '备案管理TreeItem', 'TreeItem0', 'TreeItem1']
+   |    |    |    |    |    |    | child_window(title="备案管理", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '正常航班备案'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem2', '正常航班备案', '正常航班备案TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="正常航班备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '国际航班国内段备案'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem3', '国际航班国内段备案TreeItem', '国际航班国内段备案']
+   |    |    |    |    |    |    |    | child_window(title="国际航班国内段备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航线航空器备案待开通/撤销列表'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem4', '航线航空器备案待开通/撤销列表TreeItem', '航线航空器备案待开通/撤销列表']
+   |    |    |    |    |    |    |    | child_window(title="航线航空器备案待开通/撤销列表", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航线航空器备案'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem5', '航线航空器备案TreeItem', '航线航空器备案']
+   |    |    |    |    |    |    |    | child_window(title="航线航空器备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '通用航空器备案待开通/撤销列表'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem6', '通用航空器备案待开通/撤销列表', '通用航空器备案待开通/撤销列表TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="通用航空器备案待开通/撤销列表", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '通用航空器备案'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['通用航空器备案TreeItem', 'TreeItem7', '通用航空器备案']
+   |    |    |    |    |    |    |    | child_window(title="通用航空器备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航空器运营企业备案'    (L66, T192, R178, B208)
+   |    |    |    |    |    |    |    | ['航空器运营企业备案TreeItem', 'TreeItem8', '航空器运营企业备案']
+   |    |    |    |    |    |    |    | child_window(title="航空器运营企业备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航空器代理企业备案'    (L66, T208, R178, B224)
+   |    |    |    |    |    |    |    | ['TreeItem9', '航空器代理企业备案TreeItem', '航空器代理企业备案']
+   |    |    |    |    |    |    |    | child_window(title="航空器代理企业备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '运输工具服务企业备案'    (L66, T224, R190, B240)
+   |    |    |    |    |    |    |    | ['TreeItem10', '运输工具服务企业备案', '运输工具服务企业备案TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="运输工具服务企业备案", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航空器运营企业备案待开通/撤销列表'    (L66, T240, R257, B256)
+   |    |    |    |    |    |    |    | ['TreeItem11', '航空器运营企业备案待开通/撤销列表', '航空器运营企业备案待开通/撤销列表TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="航空器运营企业备案待开通/撤销列表", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航空器代理企业备案待开通/撤销列表'    (L66, T256, R257, B272)
+   |    |    |    |    |    |    |    | ['TreeItem12', '航空器代理企业备案待开通/撤销列表', '航空器代理企业备案待开通/撤销列表TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="航空器代理企业备案待开通/撤销列表", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '运输工具服务企业备案待开通/撤销列表'    (L66, T272, R257, B288)
+   |    |    |    |    |    |    |    | ['TreeItem13', '运输工具服务企业备案待开通/撤销列表TreeItem', '运输工具服务企业备案待开通/撤销列表']
+   |    |    |    |    |    |    |    | child_window(title="运输工具服务企业备案待开通/撤销列表", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '动态管理'    (L47, T288, R99, B304)
+   |    |    |    |    |    |    | ['TreeItem14', '动态管理', '动态管理TreeItem']
+   |    |    |    |    |    |    | child_window(title="动态管理", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '当日飞行计划'    (L66, T304, R142, B320)
+   |    |    |    |    |    |    |    | ['TreeItem15', '当日飞行计划', '当日飞行计划TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="当日飞行计划", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '进境（港）预报'    (L66, T320, R154, B336)
+   |    |    |    |    |    |    |    | ['TreeItem16', '进境（港）预报TreeItem', '进境（港）预报']
+   |    |    |    |    |    |    |    | child_window(title="进境（港）预报", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '进境（港）确报'    (L66, T336, R154, B352)
+   |    |    |    |    |    |    |    | ['进境（港）确报TreeItem', '进境（港）确报', 'TreeItem17']
+   |    |    |    |    |    |    |    | child_window(title="进境（港）确报", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '在港动态'    (L66, T352, R118, B368)
+   |    |    |    |    |    |    |    | ['TreeItem18', '在港动态TreeItem', '在港动态']
+   |    |    |    |    |    |    |    | child_window(title="在港动态", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '出境（港）预报'    (L66, T368, R154, B384)
+   |    |    |    |    |    |    |    | ['TreeItem19', '出境（港）预报TreeItem', '出境（港）预报']
+   |    |    |    |    |    |    |    | child_window(title="出境（港）预报", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '出境（港）确报'    (L66, T384, R154, B400)
+   |    |    |    |    |    |    |    | ['TreeItem20', '出境（港）确报TreeItem', '出境（港）确报']
+   |    |    |    |    |    |    |    | child_window(title="出境（港）确报", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航班取消'    (L66, T400, R118, B416)
+   |    |    |    |    |    |    |    | ['TreeItem21', '航班取消', '航班取消TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="航班取消", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '结关管理'    (L66, T416, R118, B432)
+   |    |    |    |    |    |    |    | ['TreeItem22', '结关管理TreeItem', '结关管理']
+   |    |    |    |    |    |    |    | child_window(title="结关管理", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '航班状态查询'    (L66, T432, R142, B448)
+   |    |    |    |    |    |    |    | ['TreeItem23', '航班状态查询TreeItem', '航班状态查询']
+   |    |    |    |    |    |    |    | child_window(title="航班状态查询", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '单证管理'    (L47, T448, R99, B464)
+   |    |    |    |    |    |    | ['TreeItem24', '单证管理', '单证管理TreeItem']
+   |    |    |    |    |    |    | child_window(title="单证管理", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '进境（港）申报单'    (L66, T464, R166, B480)
+   |    |    |    |    |    |    |    | ['进境（港）申报单TreeItem', 'TreeItem25', '进境（港）申报单', '进境（港）申报单TreeItem0', '进境（港）申报单TreeItem1', '进境（港）申报单0', '进境（港）申报单1']
+   |    |    |    |    |    |    |    | child_window(title="进境（港）申报单", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '出境（港）申报单'    (L66, T480, R166, B496)
+   |    |    |    |    |    |    |    | ['出境（港）申报单', 'TreeItem26', '出境（港）申报单TreeItem', '出境（港）申报单0', '出境（港）申报单1']
+   |    |    |    |    |    |    |    | child_window(title="出境（港）申报单", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '在港项目'    (L47, T496, R99, B512)
+   |    |    |    |    |    |    | ['TreeItem27', '在港项目', '在港项目TreeItem']
+   |    |    |    |    |    |    | child_window(title="在港项目", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '起卸物料单据'    (L66, T512, R142, B528)
+   |    |    |    |    |    |    |    | ['TreeItem28', '起卸物料单据TreeItem', '起卸物料单据']
+   |    |    |    |    |    |    |    | child_window(title="起卸物料单据", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '添加物料单据'    (L66, T528, R142, B544)
+   |    |    |    |    |    |    |    | ['TreeItem29', '添加物料单据', '添加物料单据TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="添加物料单据", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '调拨物料单据'    (L66, T544, R142, B560)
+   |    |    |    |    |    |    |    | ['调拨物料单据TreeItem', 'TreeItem30', '调拨物料单据']
+   |    |    |    |    |    |    |    | child_window(title="调拨物料单据", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '电子关封'    (L47, T560, R99, B576)
+   |    |    |    |    |    |    | ['电子关封TreeItem', 'TreeItem31', '电子关封']
+   |    |    |    |    |    |    | child_window(title="电子关封", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '待发送电子关封'    (L66, T576, R154, B592)
+   |    |    |    |    |    |    |    | ['待发送电子关封TreeItem', 'TreeItem32', '待发送电子关封']
+   |    |    |    |    |    |    |    | child_window(title="待发送电子关封", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '已发送电子关封'    (L66, T592, R154, B593)
+   |    |    |    |    |    |    |    | ['TreeItem33', '已发送电子关封', '已发送电子关封TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="已发送电子关封", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '待办结电子关封'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem34', '待办结电子关封TreeItem', '待办结电子关封']
+   |    |    |    |    |    |    |    | child_window(title="待办结电子关封", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '已办结电子关封'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['已办结电子关封TreeItem', 'TreeItem35', '已办结电子关封']
+   |    |    |    |    |    |    |    | child_window(title="已办结电子关封", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '数据归档'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['数据归档TreeItem', 'TreeItem36', '数据归档']
+   |    |    |    |    |    |    | child_window(title="数据归档", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '人工归档'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem37', '人工归档', '人工归档TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="人工归档", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '归档历史'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem38', '归档历史', '归档历史TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="归档历史", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '统计查询'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['TreeItem39', '统计查询TreeItem', '统计查询']
+   |    |    |    |    |    |    | child_window(title="统计查询", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '进出境（港）航空器备案统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem40', '进出境（港）航空器备案统计', '进出境（港）航空器备案统计TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="进出境（港）航空器备案统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '企业备案统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['企业备案统计', 'TreeItem41', '企业备案统计TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="企业备案统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '进出境（港）航空器动态统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem42', '进出境（港）航空器动态统计', '进出境（港）航空器动态统计TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="进出境（港）航空器动态统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '机组统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem43', '机组统计', '机组统计TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="机组统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '供退机物料统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem44', '供退机物料统计TreeItem', '供退机物料统计']
+   |    |    |    |    |    |    |    | child_window(title="供退机物料统计", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '登临检查'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['TreeItem45', '登临检查', '登临检查TreeItem']
+   |    |    |    |    |    |    | child_window(title="登临检查", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '派单管理'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem46', '派单管理', '派单管理TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="派单管理", control_type="TreeItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | TreeItem - '派单操作'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    |    | ['派单操作', 'TreeItem47', '派单操作TreeItem']
+   |    |    |    |    |    |    |    |    | child_window(title="派单操作", control_type="TreeItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | TreeItem - '派单处置'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    |    | ['派单处置', 'TreeItem48', '派单处置TreeItem']
+   |    |    |    |    |    |    |    |    | child_window(title="派单处置", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '检查单证管理'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem49', '检查单证管理TreeItem', '检查单证管理']
+   |    |    |    |    |    |    |    | child_window(title="检查单证管理", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '检查结果录入'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem50', '检查结果录入', '检查结果录入TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="检查结果录入", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '基础人员信息维护'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem51', '基础人员信息维护TreeItem', '基础人员信息维护']
+   |    |    |    |    |    |    |    | child_window(title="基础人员信息维护", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '检查处理结果录入'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem52', '检查处理结果录入', '检查处理结果录入TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="检查处理结果录入", control_type="TreeItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TreeItem - '历史单证查询'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['TreeItem53', '历史单证查询TreeItem', '历史单证查询']
+   |    |    |    |    |    |    | child_window(title="历史单证查询", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '进境（港）申报单'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['进境（港）申报单TreeItem2', 'TreeItem54', '进境（港）申报单2']
+   |    |    |    |    |    |    |    | child_window(title="进境（港）申报单", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '离境（港）申报单'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['离境（港）申报单TreeItem', 'TreeItem55', '离境（港）申报单']
+   |    |    |    |    |    |    |    | child_window(title="离境（港）申报单", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '指令命中情况查询'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem56', '指令命中情况查询', '指令命中情况查询TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="指令命中情况查询", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '空运总申统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem57', '空运总申统计TreeItem', '空运总申统计']
+   |    |    |    |    |    |    |    | child_window(title="空运总申统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '登临检查工作量统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['登临检查工作量统计TreeItem', 'TreeItem58', '登临检查工作量统计']
+   |    |    |    |    |    |    |    | child_window(title="登临检查工作量统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '空运登临检查统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['空运登临检查统计TreeItem', 'TreeItem59', '空运登临检查统计']
+   |    |    |    |    |    |    |    | child_window(title="空运登临检查统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '空运登临检查指令统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem60', '空运登临检查指令统计', '空运登临检查指令统计TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="空运登临检查指令统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '空运检查率和查获率统计'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem61', '空运检查率和查获率统计', '空运检查率和查获率统计TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="空运检查率和查获率统计", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '空运检查率定期统计查询 '    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem62', '空运检查率定期统计查询 ', '空运检查率定期统计查询 TreeItem']
+   |    |    |    |    |    |    |    | child_window(title="空运检查率定期统计查询 ", control_type="TreeItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | TreeItem - '空运检查率即时统计查询'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    | ['TreeItem63', '空运检查率即时统计查询TreeItem', '空运检查率即时统计查询']
+   |    |    |    |    |    |    |    | child_window(title="空运检查率即时统计查询", control_type="TreeItem")
+   |    |    |    | 
+   |    |    |    | GroupBox - '空运业务'    (L4, T157, R276, B595)
+   |    |    |    | ['空运业务GroupBox', 'GroupBox', '空运业务']
+   |    |    |    | child_window(title="空运业务", control_type="Group")
+   |    |    |    | 
+   |    |    |    | Button - '系统支持'    (L4, T632, R276, B662)
+   |    |    |    | ['系统支持', '系统支持Button', 'Button5']
+   |    |    |    | child_window(title="系统支持", control_type="Button")
+   |    | 
+   |    | Pane - ''    (L285, T157, R1362, B697)
+   |    | ['航班号：Pane', 'Pane6', '航班号：Pane0', '航班号：Pane1']
+   |    | child_window(auto_id="394592", control_type="Pane")
+   |    |    | 
+   |    |    | TabControl - ''    (L285, T157, R1362, B697)
+   |    |    | ['TabControl进境（港）申报单', '航班号：TabControl', 'TabControl出境（港）申报单', 'TabControl', 'TabControl关闭', 'TabControl0', 'TabControl1']
+   |    |    | child_window(auto_id="tabMain", control_type="Tab")
+   |    |    |    | 
+   |    |    |    | TabItem - '出境（港）申报单'    (L286, T179, R1357, B692)
+   |    |    |    | ['出境（港）申报单2', '出境（港）申报单TabItem', 'TabItem', 'TabItem0', 'TabItem1', '出境（港）申报单TabItem0', '出境（港）申报单TabItem1']
+   |    |    |    | child_window(title="出境（港）申报单", auto_id="1508278", control_type="TabItem")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L286, T204, R1357, B692)
+   |    |    |    |    | ['航班号：Pane2', 'Pane7']
+   |    |    |    |    | child_window(auto_id="AirBillAuditListV2", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'groupControl2'    (L286, T343, R1357, B654)
+   |    |    |    |    |    | ['groupControl2', 'groupControl2Pane', 'Pane8']
+   |    |    |    |    |    | child_window(title="groupControl2", auto_id="groupControl2", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Table - ''    (L288, T366, R1355, B652)
+   |    |    |    |    |    |    | ['查询时间范围：Table', 'Table']
+   |    |    |    |    |    |    | child_window(auto_id="gcAirBill", control_type="Table")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | ScrollBar - '滚动条'    (L288, T635, R1355, B652)
+   |    |    |    |    |    |    |    | ['ScrollBar2', '滚动条', '滚动条ScrollBar']
+   |    |    |    |    |    |    |    | child_window(title="滚动条", auto_id="1310850", control_type="ScrollBar")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '向左一列'    (L288, T635, R305, B652)
+   |    |    |    |    |    |    |    |    | ['Button6', '向左一列Button', '向左一列']
+   |    |    |    |    |    |    |    |    | child_window(title="向左一列", control_type="Button")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '向左一页'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    |    | ['向左一页', 'Button7', '向左一页Button']
+   |    |    |    |    |    |    |    |    | child_window(title="向左一页", control_type="Button")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Thumb - '位置'    (L305, T635, R1164, B652)
+   |    |    |    |    |    |    |    |    | ['位置2', 'Thumb2', '位置Thumb2']
+   |    |    |    |    |    |    |    |    | child_window(title="位置", control_type="Thumb")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '向右一页'    (L1164, T635, R1338, B652)
+   |    |    |    |    |    |    |    |    | ['向右一页', 'Button8', '向右一页Button']
+   |    |    |    |    |    |    |    |    | child_window(title="向右一页", control_type="Button")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '向右一列'    (L1338, T635, R1355, B652)
+   |    |    |    |    |    |    |    |    | ['向右一列', 'Button9', '向右一列Button']
+   |    |    |    |    |    |    |    |    | child_window(title="向右一列", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Custom - '表头面板'    (L288, T400, R1355, B421)
+   |    |    |    |    |    |    |    | ['Custom', '表头面板', '表头面板Custom', 'Custom0', 'Custom1']
+   |    |    |    |    |    |    |    | child_window(title="表头面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '航班类型'    (L333, T400, R408, B421)
+   |    |    |    |    |    |    |    |    | ['航班类型Header', 'Header', '航班类型', 'Header0', 'Header1']
+   |    |    |    |    |    |    |    |    | child_window(title="航班类型", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '航班号'    (L408, T400, R483, B421)
+   |    |    |    |    |    |    |    |    | ['Header2', '航班号', '航班号Header']
+   |    |    |    |    |    |    |    |    | child_window(title="航班号", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '航班日期'    (L483, T400, R558, B421)
+   |    |    |    |    |    |    |    |    | ['Header3', '航班日期Header', '航班日期']
+   |    |    |    |    |    |    |    |    | child_window(title="航班日期", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '关区'    (L558, T400, R633, B421)
+   |    |    |    |    |    |    |    |    | ['关区', '关区Header', 'Header4']
+   |    |    |    |    |    |    |    |    | child_window(title="关区", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '进出境(港)标识'    (L633, T400, R708, B421)
+   |    |    |    |    |    |    |    |    | ['进出境(港)标识Header', '进出境(港)标识', 'Header5']
+   |    |    |    |    |    |    |    |    | child_window(title="进出境(港)标识", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '航空器注册编号'    (L708, T400, R811, B421)
+   |    |    |    |    |    |    |    |    | ['航空器注册编号', '航空器注册编号Header', 'Header6']
+   |    |    |    |    |    |    |    |    | child_window(title="航空器注册编号", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '出发港'    (L811, T400, R886, B421)
+   |    |    |    |    |    |    |    |    | ['出发港', 'Header7', '出发港Header']
+   |    |    |    |    |    |    |    |    | child_window(title="出发港", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '计划出境(港)时间'    (L886, T400, R961, B421)
+   |    |    |    |    |    |    |    |    | ['计划出境(港)时间Header', '计划出境(港)时间', 'Header8']
+   |    |    |    |    |    |    |    |    | child_window(title="计划出境(港)时间", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '接收时间'    (L961, T400, R1036, B421)
+   |    |    |    |    |    |    |    |    | ['接收时间Header', '接收时间', 'Header9']
+   |    |    |    |    |    |    |    |    | child_window(title="接收时间", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '审核人'    (L1036, T400, R1111, B421)
+   |    |    |    |    |    |    |    |    | ['审核人Header', '审核人', 'Header10']
+   |    |    |    |    |    |    |    |    | child_window(title="审核人", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '审核时间'    (L1111, T400, R1186, B421)
+   |    |    |    |    |    |    |    |    | ['审核时间', '审核时间Header', 'Header11']
+   |    |    |    |    |    |    |    |    | child_window(title="审核时间", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '审核意见'    (L1186, T400, R1261, B421)
+   |    |    |    |    |    |    |    |    | ['审核意见Header', '审核意见', 'Header12']
+   |    |    |    |    |    |    |    |    | child_window(title="审核意见", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '机组人数'    (L1261, T400, R1336, B421)
+   |    |    |    |    |    |    |    |    | ['机组人数Header', 'Header13', '机组人数']
+   |    |    |    |    |    |    |    |    | child_window(title="机组人数", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '国际旅客人数'    (L1336, T400, R1411, B421)
+   |    |    |    |    |    |    |    |    | ['国际旅客人数Header', '国际旅客人数', 'Header14']
+   |    |    |    |    |    |    |    |    | child_window(title="国际旅客人数", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '审核状态'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    |    | ['审核状态', '审核状态Header', 'Header15']
+   |    |    |    |    |    |    |    |    | child_window(title="审核状态", control_type="Header")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Header - '结关状态'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    |    |    | ['结关状态', '结关状态Header', 'Header16']
+   |    |    |    |    |    |    |    |    | child_window(title="结关状态", control_type="Header")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Custom - '数据面板'    (L288, T421, R1355, B635)
+   |    |    |    |    |    |    |    | ['数据面板Custom', 'Custom2', '数据面板']
+   |    |    |    |    |    |    |    | child_window(title="数据面板", control_type="Custom")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'groupControl1'    (L286, T204, R1357, B343)
+   |    |    |    |    |    | ['groupControl1', 'groupControl1Pane', 'Pane9']
+   |    |    |    |    |    | child_window(title="groupControl1", auto_id="groupControl1", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '全部'    (L1052, T270, R1177, B291)
+   |    |    |    |    |    |    | ['全部Pane', '全部', 'Pane10', '全部0', '全部1', '全部Pane0', '全部Pane1']
+   |    |    |    |    |    |    | child_window(title="全部", auto_id="cmbEndFlag", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '全部'    (L1055, T273, R1158, B288)
+   |    |    |    |    |    |    |    | ['Static', '全部2', '全部Static', 'Static0', 'Static1', '全部Static0', '全部Static1']
+   |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L1160, T270, R1177, B291)
+   |    |    |    |    |    |    |    | ['打开Button', 'Button10', '打开', '打开Button0', '打开Button1', '打开0', '打开1']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - '结关状态：'    (L969, T271, R1036, B285)
+   |    |    |    |    |    |    | ['Static2', '结关状态：Static', '结关状态：']
+   |    |    |    |    |    |    | child_window(title="结关状态：", auto_id="label5", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - '单证状态：'    (L756, T273, R823, B287)
+   |    |    |    |    |    |    | ['Static3', '单证状态：Static', '单证状态：']
+   |    |    |    |    |    |    | child_window(title="单证状态：", auto_id="label3", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '全部'    (L840, T270, R965, B291)
+   |    |    |    |    |    |    | ['全部Pane2', '全部3', 'Pane11']
+   |    |    |    |    |    |    | child_window(title="全部", auto_id="cbbAllowState", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '全部'    (L843, T273, R946, B288)
+   |    |    |    |    |    |    |    | ['Static4', '全部4', '全部Static2']
+   |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L948, T270, R965, B291)
+   |    |    |    |    |    |    |    | ['打开Button2', 'Button11', '打开2']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L307, T268, R698, B299)
+   |    |    |    |    |    |    | ['查询时间范围：Pane', 'Pane12', '查询时间范围：Pane0', '查询时间范围：Pane1']
+   |    |    |    |    |    |    | child_window(auto_id="queryTime", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '——'    (L526, T276, R548, B290)
+   |    |    |    |    |    |    |    | ['Static5', '——Static', '——']
+   |    |    |    |    |    |    |    | child_window(title="——", auto_id="labelControl2", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '查询时间范围：'    (L311, T275, R395, B289)
+   |    |    |    |    |    |    |    | ['Static6', '查询时间范围：Static', '查询时间范围：']
+   |    |    |    |    |    |    |    | child_window(title="查询时间范围：", auto_id="labelControl1", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - '2023年5月19日'    (L560, T272, R682, B293)
+   |    |    |    |    |    |    |    | ['2023年5月19日', '2023年5月19日Pane', 'Pane13', '2023年5月19日0', '2023年5月19日1', '2023年5月19日Pane0', '2023年5月19日Pane1']
+   |    |    |    |    |    |    |    | child_window(title="2023年5月19日", auto_id="dateEnd", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Pane - '2023年5月19日'    (L563, T275, R663, B290)
+   |    |    |    |    |    |    |    |    | ['2023年5月19日2', '2023年5月19日Pane2', 'Pane14']
+   |    |    |    |    |    |    |    |    | child_window(title="2023年5月19日", auto_id="1572908", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Custom - '2023年5月19日'    (L563, T275, R663, B290)
+   |    |    |    |    |    |    |    |    | ['2023年5月19日Custom', 'Custom3', '2023年5月19日3']
+   |    |    |    |    |    |    |    |    | child_window(title="2023年5月19日", control_type="Custom")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - '2023年5月12日'    (L413, T272, R520, B293)
+   |    |    |    |    |    |    |    | ['Pane15', '2023年5月12日Pane', '2023年5月12日', '2023年5月12日Pane0', '2023年5月12日Pane1', '2023年5月12日0', '2023年5月12日1']
+   |    |    |    |    |    |    |    | child_window(title="2023年5月12日", auto_id="dateStart", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Pane - '2023年5月12日'    (L416, T275, R501, B290)
+   |    |    |    |    |    |    |    |    | ['Pane16', '2023年5月12日Pane2', '2023年5月12日2']
+   |    |    |    |    |    |    |    |    | child_window(title="2023年5月12日", auto_id="5243848", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Custom - '2023年5月12日'    (L416, T275, R501, B290)
+   |    |    |    |    |    |    |    |    | ['Custom4', '2023年5月12日Custom', '2023年5月12日3']
+   |    |    |    |    |    |    |    |    | child_window(title="2023年5月12日", control_type="Custom")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - '查 询'    (L371, T309, R458, B336)
+   |    |    |    |    |    |    | ['Button12', '查 询', '查 询Button']
+   |    |    |    |    |    |    | child_window(title="查 询", auto_id="btnSearch", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - '重 置'    (L467, T309, R554, B336)
+   |    |    |    |    |    |    | ['重 置', 'Button13', '重 置Button']
+   |    |    |    |    |    |    | child_window(title="重 置", auto_id="sbtnClear", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - '当前页打印'    (L560, T309, R647, B336)
+   |    |    |    |    |    |    | ['当前页打印', '当前页打印Button', 'Button14']
+   |    |    |    |    |    |    | child_window(title="当前页打印", auto_id="sbtnCurrent", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - '全部打印'    (L656, T309, R743, B336)
+   |    |    |    |    |    |    | ['Button15', '全部打印', '全部打印Button']
+   |    |    |    |    |    |    | child_window(title="全部打印", auto_id="stbnPrint", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L413, T235, R538, B256)
+   |    |    |    |    |    |    | ['航班号：Pane3', 'Pane17']
+   |    |    |    |    |    |    | child_window(auto_id="tbFlightNo", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Edit - ''    (L416, T238, R535, B253)
+   |    |    |    |    |    |    |    | ['Edit', '航班号：Edit', 'Edit0', 'Edit1', '航班号：Edit0', '航班号：Edit1']
+   |    |    |    |    |    |    |    | child_window(auto_id="197900", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Edit - ''    (L416, T238, R535, B253)
+   |    |    |    |    |    |    |    | ['Edit2', '航班号：Edit2']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L628, T235, R753, B256)
+   |    |    |    |    |    |    | ['航班日期：Pane', 'Pane18', '航班日期：Pane0', '航班日期：Pane1']
+   |    |    |    |    |    |    | child_window(auto_id="dtpFlightDate", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - ''    (L631, T238, R734, B253)
+   |    |    |    |    |    |    |    | ['航班日期：Pane2', 'Pane19']
+   |    |    |    |    |    |    |    | child_window(auto_id="197890", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Custom - ''    (L631, T238, R734, B253)
+   |    |    |    |    |    |    |    | ['Custom5', '航班日期：Custom']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - '审核状态：'    (L968, T239, R1035, B253)
+   |    |    |    |    |    |    | ['Static7', '审核状态：', '审核状态：Static']
+   |    |    |    |    |    |    | child_window(title="审核状态：", auto_id="label2", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '待审核'    (L1052, T235, R1177, B256)
+   |    |    |    |    |    |    | ['待审核Pane', '待审核', 'Pane20', '待审核0', '待审核1']
+   |    |    |    |    |    |    | child_window(title="待审核", auto_id="cbAuditFlag", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '待审核'    (L1055, T238, R1158, B253)
+   |    |    |    |    |    |    |    | ['Static8', '待审核2', '待审核Static']
+   |    |    |    |    |    |    |    | child_window(title="待审核", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L1160, T235, R1177, B256)
+   |    |    |    |    |    |    |    | ['打开Button3', 'Button16', '打开3']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - '关区范围：'    (L756, T239, R823, B253)
+   |    |    |    |    |    |    | ['Static9', '关区范围：Static', '关区范围：']
+   |    |    |    |    |    |    | child_window(title="关区范围：", auto_id="label4", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - '航班日期：'    (L541, T238, R608, B252)
+   |    |    |    |    |    |    | ['Static10', '航班日期：', '航班日期：Static']
+   |    |    |    |    |    |    | child_window(title="航班日期：", auto_id="label1", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - '航班号：'    (L343, T238, R398, B252)
+   |    |    |    |    |    |    | ['Static11', '航班号：Static', '航班号：']
+   |    |    |    |    |    |    | child_window(title="航班号：", auto_id="labelFlightNo", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '8302-贵关机办'    (L840, T235, R965, B256)
+   |    |    |    |    |    |    | ['8302-贵关机办', '8302-贵关机办Pane', 'Pane21', '8302-贵关机办0', '8302-贵关机办1']
+   |    |    |    |    |    |    | child_window(title="8302-贵关机办", auto_id="comboBoxCustomsRange", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '8302-贵关机办'    (L843, T238, R946, B253)
+   |    |    |    |    |    |    |    | ['Static12', '8302-贵关机办2', '8302-贵关机办Static']
+   |    |    |    |    |    |    |    | child_window(title="8302-贵关机办", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L948, T235, R965, B256)
+   |    |    |    |    |    |    |    | ['打开Button4', 'Button17', '打开4']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L286, T654, R1357, B692)
+   |    |    |    |    |    | ['查询时间范围：Pane2', 'Pane22']
+   |    |    |    |    |    | child_window(auto_id="panel1", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L834, T658, R1353, B686)
+   |    |    |    |    |    |    | ['跳转到Pane', 'Pane23']
+   |    |    |    |    |    |    | child_window(auto_id="exDataNavigator1", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '本页0条/共0条'    (L1133, T663, R1219, B677)
+   |    |    |    |    |    |    |    | ['Static13', '本页0条/共0条Static', '本页0条/共0条']
+   |    |    |    |    |    |    |    | child_window(title="本页0条/共0条", auto_id="labelDataCount", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '第0页/共0页'    (L1254, T663, R1328, B677)
+   |    |    |    |    |    |    |    | ['Static14', '第0页/共0页', '第0页/共0页Static']
+   |    |    |    |    |    |    |    | child_window(title="第0页/共0页", auto_id="lblCurrentIndex", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - '页'    (L1061, T659, R1104, B680)
+   |    |    |    |    |    |    |    | ['页', '页Pane', 'Pane24', '页0', '页1']
+   |    |    |    |    |    |    |    | child_window(title="页", auto_id="textEdit1", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Edit - '页'    (L1064, T662, R1101, B677)
+   |    |    |    |    |    |    |    |    | ['Edit3', '跳转到Edit']
+   |    |    |    |    |    |    |    |    | child_window(title="页", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - ''    (L960, T658, R1003, B685)
+   |    |    |    |    |    |    |    | ['Button18', '结关状态：Button']
+   |    |    |    |    |    |    |    | child_window(auto_id="btnLast", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - ''    (L918, T658, R961, B685)
+   |    |    |    |    |    |    |    | ['全部Button', 'Button19', '全部Button0', '全部Button1']
+   |    |    |    |    |    |    |    | child_window(auto_id="btnNext", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - ''    (L876, T658, R919, B685)
+   |    |    |    |    |    |    |    | ['全部Button2', 'Button20']
+   |    |    |    |    |    |    |    | child_window(auto_id="btnPrev", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - ''    (L834, T658, R877, B685)
+   |    |    |    |    |    |    |    | ['全部Button3', 'Button21']
+   |    |    |    |    |    |    |    | child_window(auto_id="btnFirst", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '页'    (L1106, T663, R1125, B677)
+   |    |    |    |    |    |    |    | ['页Static', 'Static15', '页2']
+   |    |    |    |    |    |    |    | child_window(title="页", auto_id="label2", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '跳转到'    (L1010, T663, R1053, B677)
+   |    |    |    |    |    |    |    | ['Static16', '跳转到', '跳转到Static']
+   |    |    |    |    |    |    |    | child_window(title="跳转到", auto_id="label1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L286, T179, R1357, B204)
+   |    |    |    |    | ['Pane25']
+   |    |    |    |    | child_window(auto_id="2164014", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Button - '关闭'    (L1339, T160, R1358, B175)
+   |    |    |    | ['关闭', 'Button22', '关闭Button', '关闭0', '关闭1', '关闭Button0', '关闭Button1']
+   |    |    |    | child_window(title="关闭", control_type="Button")
+   |    |    |    | 
+   |    |    |    | TabItem - '进境（港）申报单'    (L289, T159, R403, B178)
+   |    |    |    | ['进境（港）申报单3', 'TabItem2', '进境（港）申报单TabItem']
+   |    |    |    | child_window(title="进境（港）申报单", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - '出境（港）申报单'    (L402, T157, R537, B179)
+   |    |    |    | ['出境（港）申报单3', '出境（港）申报单TabItem2', 'TabItem3']
+   |    |    |    | child_window(title="出境（港）申报单", control_type="TabItem")
+   | 
+   | Pane - 'Status Bar'    (L0, T701, R1366, B728)
+   | ['Status Bar', 'Status BarPane', 'Pane26']
+   | child_window(title="Status Bar", auto_id="ribbonStatusBar1", control_type="Pane")
+   | 
+   | Pane - 'The Ribbon'    (L0, T-8, R1366, B153)
+   | ['The Ribbon', 'The RibbonPane', 'Pane27']
+   | child_window(title="The Ribbon", auto_id="ribbonControl1", control_type="Pane")
+   |    | 
+   |    | Button - ''    (L2, T31, R58, B55)
+   |    | ['Button23']
+   |    | 
+   |    | Toolbar - 'Quick Access Toolbar'    (L27, T1, R1257, B31)
+   |    | ['Quick Access Toolbar', 'Toolbar', 'Quick Access ToolbarToolbar', 'Toolbar0', 'Toolbar1']
+   |    | child_window(title="Quick Access Toolbar", control_type="ToolBar")
+   |    |    | 
+   |    |    | Button - '项目'    (L27, T6, R119, B28)
+   |    |    | ['项目Button', '项目', 'Button24']
+   |    |    | child_window(title="项目", control_type="Button")
+   |    | 
+   |    | TabControl - 'Ribbon Tabs'    (L0, T31, R1366, B55)
+   |    | ['TabControl2', 'Ribbon TabsTabControl', 'Ribbon Tabs']
+   |    | child_window(title="Ribbon Tabs", control_type="Tab")
+   |    |    | 
+   |    |    | TabItem - '系统管理'    (L59, T31, R144, B55)
+   |    |    | ['系统管理TabItem', '系统管理', 'TabItem4', '系统管理0', '系统管理1']
+   |    |    | child_window(title="系统管理", control_type="TabItem")
+   |    | 
+   |    | Pane - 'Lower Ribbon'    (L0, T54, R1366, B153)
+   |    | ['Lower RibbonPane', 'Lower Ribbon', 'Pane28']
+   |    | child_window(title="Lower Ribbon", control_type="Pane")
+   |    |    | 
+   |    |    | Custom - '系统管理'    (L0, T54, R1366, B153)
+   |    |    | ['Custom6', '系统管理2', '系统管理Custom']
+   |    |    | child_window(title="系统管理", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Toolbar - '皮肤'    (L0, T56, R207, B149)
+   |    |    |    | ['Toolbar2', '皮肤', '皮肤Toolbar']
+   |    |    |    | child_window(title="皮肤", control_type="ToolBar")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Skins'    (L2, T59, R201, B125)
+   |    |    |    |    | ['ComboBox', 'SkinsComboBox', 'Skins', 'Skins0', 'Skins1']
+   |    |    |    |    | child_window(title="Skins", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ListBox - 'Skins'    (L6, T61, R197, B123)
+   |    |    |    |    |    | ['ListBox', 'Skins2', 'SkinsListBox', 'ListBox0', 'ListBox1', 'SkinsListBox0', 'SkinsListBox1']
+   |    |    |    |    |    | child_window(title="Skins", control_type="List")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Black'    (L6, T66, R48, B92)
+   |    |    |    |    |    |    | ['ListItem', 'BlackListItem', 'Black', 'ListItem0', 'ListItem1']
+   |    |    |    |    |    |    | child_window(title="Black", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Blue'    (L48, T66, R90, B92)
+   |    |    |    |    |    |    | ['BlueListItem', 'ListItem2', 'Blue']
+   |    |    |    |    |    |    | child_window(title="Blue", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Caramel'    (L90, T66, R132, B92)
+   |    |    |    |    |    |    | ['ListItem3', 'Caramel', 'CaramelListItem']
+   |    |    |    |    |    |    | child_window(title="Caramel", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'DevExpress Dark Style'    (L132, T66, R174, B92)
+   |    |    |    |    |    |    | ['ListItem4', 'DevExpress Dark StyleListItem', 'DevExpress Dark Style']
+   |    |    |    |    |    |    | child_window(title="DevExpress Dark Style", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'DevExpress Style'    (L6, T92, R48, B118)
+   |    |    |    |    |    |    | ['ListItem5', 'DevExpress StyleListItem', 'DevExpress Style']
+   |    |    |    |    |    |    | child_window(title="DevExpress Style", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'iMaginary'    (L48, T92, R90, B118)
+   |    |    |    |    |    |    | ['ListItem6', 'iMaginaryListItem', 'iMaginary']
+   |    |    |    |    |    |    | child_window(title="iMaginary", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Lilian'    (L90, T92, R132, B118)
+   |    |    |    |    |    |    | ['ListItem7', 'Lilian', 'LilianListItem']
+   |    |    |    |    |    |    | child_window(title="Lilian", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Money Twins'    (L132, T92, R174, B118)
+   |    |    |    |    |    |    | ['ListItem8', 'Money Twins', 'Money TwinsListItem']
+   |    |    |    |    |    |    | child_window(title="Money Twins", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ListBox - 'Skins'    (L6, T61, R197, B123)
+   |    |    |    |    |    | ['ListBox', 'Skins2', 'SkinsListBox', 'ListBox0', 'ListBox1', 'SkinsListBox0', 'SkinsListBox1']
+   |    |    |    |    |    | child_window(title="Skins", control_type="List")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2007 Black'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem9', 'Office 2007 Black', 'Office 2007 BlackListItem']
+   |    |    |    |    |    |    | child_window(title="Office 2007 Black", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2007 Blue'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['Office 2007 Blue', 'ListItem10', 'Office 2007 BlueListItem']
+   |    |    |    |    |    |    | child_window(title="Office 2007 Blue", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2007 Green'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['Office 2007 GreenListItem', 'ListItem11', 'Office 2007 Green']
+   |    |    |    |    |    |    | child_window(title="Office 2007 Green", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2007 Pink'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem12', 'Office 2007 Pink', 'Office 2007 PinkListItem']
+   |    |    |    |    |    |    | child_window(title="Office 2007 Pink", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2007 Silver'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['Office 2007 Silver', 'ListItem13', 'Office 2007 SilverListItem']
+   |    |    |    |    |    |    | child_window(title="Office 2007 Silver", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2010 Black'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem14', 'Office 2010 Black', 'Office 2010 BlackListItem']
+   |    |    |    |    |    |    | child_window(title="Office 2010 Black", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2010 Blue'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem15', 'Office 2010 Blue', 'Office 2010 BlueListItem']
+   |    |    |    |    |    |    | child_window(title="Office 2010 Blue", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Office 2010 Silver'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem16', 'Office 2010 SilverListItem', 'Office 2010 Silver']
+   |    |    |    |    |    |    | child_window(title="Office 2010 Silver", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ListBox - 'Skins'    (L6, T61, R197, B123)
+   |    |    |    |    |    | ['ListBox', 'Skins2', 'SkinsListBox', 'ListBox0', 'ListBox1', 'SkinsListBox0', 'SkinsListBox1']
+   |    |    |    |    |    | child_window(title="Skins", control_type="List")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Blueprint'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem17', 'BlueprintListItem', 'Blueprint']
+   |    |    |    |    |    |    | child_window(title="Blueprint", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Coffee'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem18', 'CoffeeListItem', 'Coffee']
+   |    |    |    |    |    |    | child_window(title="Coffee", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Dark Side'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['Dark Side', 'ListItem19', 'Dark SideListItem']
+   |    |    |    |    |    |    | child_window(title="Dark Side", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Darkroom'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem20', 'Darkroom', 'DarkroomListItem']
+   |    |    |    |    |    |    | child_window(title="Darkroom", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Foggy'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem21', 'FoggyListItem', 'Foggy']
+   |    |    |    |    |    |    | child_window(title="Foggy", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Glass Oceans'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem22', 'Glass OceansListItem', 'Glass Oceans']
+   |    |    |    |    |    |    | child_window(title="Glass Oceans", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'High Contrast'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem23', 'High ContrastListItem', 'High Contrast']
+   |    |    |    |    |    |    | child_window(title="High Contrast", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Liquid Sky'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem24', 'Liquid Sky', 'Liquid SkyListItem']
+   |    |    |    |    |    |    | child_window(title="Liquid Sky", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'London Liquid Sky'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['London Liquid Sky', 'ListItem25', 'London Liquid SkyListItem']
+   |    |    |    |    |    |    | child_window(title="London Liquid Sky", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'McSkin'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem26', 'McSkin', 'McSkinListItem']
+   |    |    |    |    |    |    | child_window(title="McSkin", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Pumpkin'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem27', 'Pumpkin', 'PumpkinListItem']
+   |    |    |    |    |    |    | child_window(title="Pumpkin", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Seven'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem28', 'SevenListItem', 'Seven']
+   |    |    |    |    |    |    | child_window(title="Seven", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Seven Classic'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['Seven Classic', 'ListItem29', 'Seven ClassicListItem']
+   |    |    |    |    |    |    | child_window(title="Seven Classic", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Sharp'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem30', 'Sharp', 'SharpListItem']
+   |    |    |    |    |    |    | child_window(title="Sharp", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Sharp Plus'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem31', 'Sharp PlusListItem', 'Sharp Plus']
+   |    |    |    |    |    |    | child_window(title="Sharp Plus", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Springtime'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['SpringtimeListItem', 'ListItem32', 'Springtime']
+   |    |    |    |    |    |    | child_window(title="Springtime", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Stardust'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem33', 'Stardust', 'StardustListItem']
+   |    |    |    |    |    |    | child_window(title="Stardust", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Summer'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['SummerListItem', 'ListItem34', 'Summer']
+   |    |    |    |    |    |    | child_window(title="Summer", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'The Asphalt World'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['The Asphalt World', 'ListItem35', 'The Asphalt WorldListItem']
+   |    |    |    |    |    |    | child_window(title="The Asphalt World", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Valentine'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem36', 'Valentine', 'ValentineListItem']
+   |    |    |    |    |    |    | child_window(title="Valentine", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Whiteprint'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListItem37', 'Whiteprint', 'WhiteprintListItem']
+   |    |    |    |    |    |    | child_window(title="Whiteprint", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListItem - 'Xmas (Blue)'    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['Xmas (Blue)', 'ListItem38', 'Xmas (Blue)ListItem']
+   |    |    |    |    |    |    | child_window(title="Xmas (Blue)", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Row up'    (L186, T59, R201, B81)
+   |    |    |    |    |    | ['Row upButton', 'Button25', 'Row up']
+   |    |    |    |    |    | child_window(title="Row up", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Row down'    (L186, T81, R201, B103)
+   |    |    |    |    |    | ['Button26', 'Row downButton', 'Row down']
+   |    |    |    |    |    | child_window(title="Row down", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Expand Gallery Button'    (L186, T103, R201, B125)
+   |    |    |    |    |    | ['Expand Gallery ButtonButton', 'Expand Gallery Button', 'Button27']
+   |    |    |    |    |    | child_window(title="Expand Gallery Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Toolbar - '系统'    (L207, T56, R363, B149)
+   |    |    |    | ['系统Toolbar', 'Toolbar3', '系统', '系统0', '系统1']
+   |    |    |    | child_window(title="系统", control_type="ToolBar")
+   |    |    |    |    | 
+   |    |    |    |    | Button - '切换用户'    (L209, T57, R269, B127)
+   |    |    |    |    | ['切换用户', 'Button28', '切换用户Button']
+   |    |    |    |    | child_window(title="切换用户", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Button - '注销'    (L269, T57, R313, B127)
+   |    |    |    |    | ['注销Button', 'Button29', '注销']
+   |    |    |    |    | child_window(title="注销", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Button - '退出'    (L313, T57, R357, B127)
+   |    |    |    |    | ['Button30', '退出', '退出Button']
+   |    |    |    |    | child_window(title="退出", control_type="Button")
+   | 
+   | TitleBar - ''    (L0, T0, R0, B0)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - '系统'    (L0, T0, R22, B22)
+   |    | ['系统Menu', '系统2', 'Menu']
+   |    | child_window(title="系统", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '系统'    (L0, T0, R22, B22)
+   |    |    | ['系统MenuItem', 'MenuItem', '系统3']
+   |    |    | child_window(title="系统", control_type="MenuItem")
+   |    | 
+   |    | Button - '最小化'    (L1225, T8, R1272, B29)
+   |    | ['最小化Button', 'Button31', '最小化']
+   |    | child_window(title="最小化", control_type="Button")
+   |    | 
+   |    | Button - '还原'    (L1272, T8, R1318, B29)
+   |    | ['Button32', '还原Button', '还原']
+   |    | child_window(title="还原", control_type="Button")
+   |    | 
+   |    | Button - '关闭'    (L1318, T8, R1374, B29)
+   |    | ['关闭2', 'Button33', '关闭Button2']
+   |    | child_window(title="关闭", control_type="Button")

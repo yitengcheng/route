@@ -1,0 +1,32 @@
+{
+  "title": "提示框",
+  "widget": [
+    {
+      "file": {
+        "id": "ultimatelyFile",
+        "name": "最终名单excel路径"
+      }
+    },
+    {
+      "input": {
+        "id": "ultimatelyFileNumber",
+        "name": "最终名单excel起始行"
+      }
+    },
+    {
+      "file": {
+        "id": "classFile",
+        "name": "班级excel路径"
+      }
+    },
+    {
+      "input": {
+        "id": "classFileNumber",
+        "name": "班级excel起始行"
+      }
+    }
+  ],
+  "submit": {
+    "js": "generatedLastClass"
+  }
+}

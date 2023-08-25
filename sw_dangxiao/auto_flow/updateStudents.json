@@ -1,0 +1,87 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {
+        "$view": "updateStudents"
+      },
+      {
+        "$timeout": 1.5
+      },
+      {
+        "pool.get": {
+          "name": "studentDatas"
+        }
+      },
+      {
+        "$for": [
+          {
+            "$items": "$pool.get"
+          },
+          {
+            "$var_studentData": "$items"
+          },
+          {
+            "pool.set": {
+              "name": "data",
+              "value": "$var_studentData"
+            }
+          },
+          {
+            "java_script": {
+              "js": "searchStudent",
+              "items": "$var_studentData"
+            }
+          },
+          {
+            "java_script": {
+              "js": "initNodes"
+            }
+          },
+          {
+            "pool.get": {
+              "name": "nodes"
+            }
+          },
+          {
+            "$for": [
+              {
+                "$items": "$pool.get"
+              },
+              {
+                "$var_node": "$items"
+              },
+              {
+                "java_script": {
+                  "js": "handleStudent",
+                  "items": "$var_node"
+                }
+              },
+              {
+                "$timeout": 3
+              },
+              {
+                "click": {
+                  "by": "id",
+                  "value": "popup_ok"
+                }
+              },
+              {
+                "$timeout": 3
+              },
+              {
+                "java_script": {
+                  "js": "searchStudent",
+                  "items": "$var_studentData"
+                }
+              },
+              {
+                "$timeout": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

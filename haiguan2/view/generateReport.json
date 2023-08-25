@@ -1,0 +1,14 @@
+{
+  "title": "提示框",
+  "widget": [
+    {
+      "datetimes": {
+        "id": "searchTime",
+        "name": "查询时间"
+      }
+    }
+  ],
+  "submit": {
+    "js": "generateReport"
+  }
+}

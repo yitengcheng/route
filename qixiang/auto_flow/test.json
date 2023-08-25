@@ -1,0 +1,11 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {"java_script": {
+          "js": "test"
+        }
+      }
+    ]
+  }
+]

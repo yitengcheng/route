@@ -1,0 +1,41 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {
+        "pool.set": {
+          "name": "xiaoshibufr1",
+          "value": true
+        }
+      },
+      {
+        "pool.set": {
+          "name": "turangshuifen",
+          "value": true
+        }
+      },
+      {
+        "$while": [
+          {
+            "java_script": {
+              "js": "xiaoshibufr1"
+            }
+          },
+          {
+            "java_script": {
+              "js": "turangshuifen"
+            }
+          },
+          {
+            "java_script": {
+              "js": "reset"
+            }
+          },
+          {
+            "$timeout": 0.1
+          }
+        ]
+      }
+    ]
+  }
+]
