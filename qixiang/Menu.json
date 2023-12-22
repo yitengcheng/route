@@ -2,9 +2,9 @@
   {
     "name": "启动引擎",
     "action": {
-      "containers.Firefox.open_browser": {}
+      "containers.Chrome.open_browser": {}
     },
-    "icons": "`working.png`"
+    "icons": "working.png"
   },
   {
     "name": "启动数字巡检",

@@ -16,38 +16,33 @@
         区县: row.cells[5].innerText,
       });
     }
-    let desktopPath = await $desktop_dir();
     await window.py("excel.read_excel", {
-      file: `${desktopPath}/模板/汇总模板.xlsx`,
+      file: `C:/Users/jiqi/Desktop/模板/汇总模板.xlsx`,
       header: 2,
     });
     await window.py("excel.twrite", {
       value: data,
     });
     await window.py("excel.save", {
-      file: `${desktopPath}/dist/${new Date().getFullYear()}年${
+      file: `C:/Users/jiqi/Desktop/dist/${new Date().getFullYear()}年${
         new Date().getMonth() + 1
       }月${new Date().getDate()}日${new Date().getHours()}时${new Date().getMinutes()}分 小时bufr要素存储1缺省汇总.xlsx`,
     });
     iframe.contentWindow.document.getElementsByClassName("uy-modal-close-x")[0].click();
   }
-  await window.py("pool.set", { name: "xiaoshibufr1", value: false });
+  // await window.py("pool.set", { name: "xiaoshibufr1", value: false });
   $finish();
 };
 
 const main = async () => {
-  console.log("开始小时bufr");
   let flag = await window.py("pool.get", { name: "xiaoshibufr1" });
-  if (flag && new Date().getMinutes() == 7) {
-    let iframe = document.getElementsByTagName("iframe")[0];
-    if (!iframe) {
-      location.reload();
-    } else {
+  let currentDate = new Date();
+  if (flag) {
+    if ((currentDate.getMinutes() == 7 || currentDate.getMinutes() == 5) && currentDate.getSeconds() == 0) {
       await report();
     }
   }
   $finish();
-  console.log("结束小时bufr");
 };
 
 main();

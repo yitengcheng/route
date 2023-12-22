@@ -1,0 +1,25 @@
+[
+  {
+    "application": "Firefox",
+    "flow": [
+      {
+        "pool.set": {
+          "name": "currentfile",
+          "value": ""
+        }
+      },
+      {
+        "$while": [
+          {
+            "java_script": {
+              "js": "generateReport"
+            }
+          },
+          {
+            "$timeout": 1
+          }
+        ]
+      }
+    ]
+  }
+]
