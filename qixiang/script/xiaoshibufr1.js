@@ -1,5 +1,8 @@
 ﻿const report = async () => {
-  let iframe = document.getElementsByTagName("iframe")[0];
+  let iframe = document.getElementsByTagName("iframe")?.[0];
+  if (!iframe) {
+      await $refresh();
+    }
   let node = iframe.contentWindow.document.getElementsByClassName("uy-table-tbody")[0];
   let defaultValue = node.rows[6].cells[5].children[0].children[0].innerText * 1;
   if (defaultValue > 0) {
@@ -30,17 +33,15 @@
     });
     iframe.contentWindow.document.getElementsByClassName("uy-modal-close-x")[0].click();
   }
-  // await window.py("pool.set", { name: "xiaoshibufr1", value: false });
+  await $timeout(1);
   $finish();
 };
 
 const main = async () => {
-  let flag = await window.py("pool.get", { name: "xiaoshibufr1" });
+  console.log('------', new Date().getHours(), new Date().getMinutes(), new Date().getSeconds())
   let currentDate = new Date();
-  if (flag) {
-    if ((currentDate.getMinutes() == 7 || currentDate.getMinutes() == 5) && currentDate.getSeconds() == 0) {
-      await report();
-    }
+  if (currentDate.getMinutes() == 7 && currentDate.getSeconds() == 0) {
+    await report();
   }
   $finish();
 };

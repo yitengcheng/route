@@ -3,18 +3,6 @@
     "application": "Chrome",
     "flow": [
       {
-        "pool.set": {
-          "name": "xiaoshibufr1",
-          "value": true
-        }
-      },
-      {
-        "pool.set": {
-          "name": "turangshuifen",
-          "value": true
-        }
-      },
-      {
         "$while": [
           {
             "java_script": {
@@ -32,7 +20,7 @@
             }
           },
           {
-            "$timeout": 1
+            "$timeout": 0.1
           }
         ]
       }
